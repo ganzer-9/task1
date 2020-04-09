@@ -95,6 +95,20 @@ nav {
   border: 1px solid #007bff;
   color: #007bff;
 }
+/*********Share Section1************/
+.share_section_img img
+{
+    width: 100%;
+}
+.share_section_speech p
+{
+    color:#5a5a5a;
+}
+.share_section_speech h5
+{
+    color:#5a5a5a;
+}
+/*********Share Section1************/
 
 @media all and (min-width: 768px) and (max-width: 991px) {
   .s-explore .item-img img {
