@@ -1,3 +1,10 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
+  line-height: 1.5;
+  color: #212529;
+}
+
 /*start nav*/
 nav {
   background-color: rgba(83, 83, 83, 0.5);
@@ -54,6 +61,47 @@ nav {
   font-size: 20px;
 }
 /*end explore*/
+/*======= Start Section explore (Abanoub) =======*/
+.s-explore {
+  padding: 50px 0;
+  background-color: #f8f9fa;
+}
+
+.s-explore p {
+  color: #999;
+  margin-bottom: 40px;
+}
+
+.s-explore .content h3 {
+  color: #72757d;
+}
+
+.s-explore .item-img {
+  overflow: hidden;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.s-explore .item-img:hover img {
+  transform: scale(1.2);
+  transition: all 1s ease;
+}
+
+.s-explore .icon i {
+  font-size: 3rem;
+}
+
+.s-explore .icon:hover i {
+  border: 1px solid #007bff;
+  color: #007bff;
+}
+
+@media all and (min-width: 768px) and (max-width: 991px) {
+  .s-explore .item-img img {
+    height: 400px;
+  }
+}
+/*======= End Section explore (Abanoub) =======*/
 /* start create section 3 */
 .container-fluid {
   background-color: #333;
@@ -64,10 +112,6 @@ nav {
   font-size: 1.7rem;
   padding: 0.5rem;
   border-radius: 0.3rem;
-}
-
-body {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /* end create section  3*/
