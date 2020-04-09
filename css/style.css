@@ -95,7 +95,14 @@ nav {
   border: 1px solid #007bff;
   color: #007bff;
 }
-/*********Share Section1************/
+@media all and (min-width: 768px) and (max-width: 991px) {
+  .s-explore .item-img img {
+    height: 400px;
+  }
+}
+/*======= End Section explore (Abanoub) =======*/
+
+/*********Share Section1 Menna************/
 .share_section_img img
 {
     width: 100%;
@@ -108,18 +115,14 @@ nav {
 {
     color:#5a5a5a;
 }
-/*********Share Section1************/
+/*********Share Section1 Menna************/
 
-@media all and (min-width: 768px) and (max-width: 991px) {
-  .s-explore .item-img img {
-    height: 400px;
-  }
-}
-/*======= End Section explore (Abanoub) =======*/
 /* start create section 3 */
 .container-fluid {
-  background-color: #333;
   padding: 3rem;
+}
+ .bg{
+  background-color: #333;
 }
 .fas {
   background-color: white;
